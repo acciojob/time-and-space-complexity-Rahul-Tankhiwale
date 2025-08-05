@@ -10,49 +10,33 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	 <table border='3', width=''>
-        <thead>
-            <tr>
-                <th>Element</th>
-                <th>Description</th>
-                <th>Count</th>
-				<th>Keywords</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>h1</td>
-                <td>Heading for the document</td>
-                <td>1</td>
-				<td>Time, Space, Complexity</td>
-            </tr>
-            <tr>
-                <td>P</td>
-                <td>First paragraph explaining Time Complexity</td>
-                <td>1</td>
-				<td>	Time complexity, efficient</td>
-            </tr>
-
-            <tr>
-                <td>p</td>
-                <td>Second paragraph explaining Space Complexity</td>
-                <td>1</td>
-				<td>Space Complexity O(n)</td>
-            </tr>
-
-			
-            <tr>
-                <td>b</td>
-                <td>Bold text within the second paragraph</td>
-                <td>1</td>
-				<td>Space Complexity</td>
-            </tr>
-        </tbody>
-    </table>
-
-
-   
-
+<h1>Time Complexity and Space Complexity Concept In Detail</h1>
+<p>Time complexity is a measure of how the runtime of an algorithm scales with the size of its input. It quantifies the number of operations an algorithm performs as a function of the input size, typically expressed using Big O notation. This notation describes the upper bound of the algorithm's growth rate in the worst-case scenario.
+Key aspects of time complexity:
+Not actual time:
+Time complexity does not measure the exact time an algorithm takes to run on a specific machine. Instead, it focuses on the rate at which the execution time increases as the input size grows.
+Machine independence:
+It abstracts away hardware-specific factors like processor speed or memory access times, providing a more general and comparable metric for algorithm efficiency.
+Big O notation:
+Common Big O notations include:
+O(1) - Constant time: The execution time remains constant regardless of the input size.
+O(log n) - Logarithmic time: The execution time increases logarithmically with the input size (e.g., binary search).
+O(n) - Linear time: The execution time grows linearly with the input size (e.g., iterating through an array).
+O(n log n) - Linearithmic time: Common in efficient sorting algorithms (e.g., merge sort, quicksort).
+O(n^2) - Quadratic time: The execution time grows quadratically with the input size (e.g., nested loops).
+O(2^n) - Exponential time: The execution time grows exponentially with the input size, typically indicating highly inefficient algorithms for large inputs.
+Worst-case analysis:
+Time complexity often focuses on the worst-case scenario, providing a guarantee on the maximum time an algorithm might take.
+Importance:
+Understanding time complexity is crucial for designing efficient algorithms, especially when dealing with large datasets, as it directly impacts performance and resource utilization.Time complexity, efficient </p>
+<br>
+<p><b>Space Complexity</b> is a measure of the amount of memory space an algorithm requires to execute and complete its task, relative to the size of its input. It quantifies the memory footprint of an algorithm, including both the space used for storing input data and any additional, temporary space (auxiliary space) needed during computation. 
+Space complexity is typically expressed using Big O notation, which describes the upper bound of the growth rate of memory usage as the input size increases. For example:
+O(1) (Constant Space Complexity): The algorithm uses a fixed amount of memory regardless of the input size.
+O(n) (Linear Space Complexity): The memory usage grows linearly with the input size.
+O(n^2) (Quadratic Space Complexity): The memory usage grows proportionally to the square of the input size.
+Understanding space complexity is crucial for designing efficient algorithms, especially when dealing with large datasets or resource-constrained environments, as excessive memory consumption can lead to performance issues or system limitations. It is often considered alongside time complexity, which measures the execution time of an algorithm, to provide a comprehensive analysis of an algorithm's performance characteristics.Space Complexity, O(n)</p>
+<br>
 </body>
 
 </html>
